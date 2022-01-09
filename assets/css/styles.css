@@ -47,8 +47,7 @@ body {
         font-size: 36px;
         color: var(--white);
         margin:0;
-        /* Text Shadow Aesthetics Enhancement*/
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        
     }
     
     header a {
@@ -98,20 +97,117 @@ body {
 }
 
 .kuma-subtitle h2 {
-    font-size: 25px;
+    font-size: 22px;
     color: var(--white);
     
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     border-radius: 10px;
     border-width: thick;
-    margin: 20px;
-    position: absolute;
-    bottom: 0;
-    right: 40px;
-
-    
-
+    width: 40%;
+      
+    position: relative;
+    top: 335px;
+    left: 1050px;
+    text-align: right;
+    z-index: 999;
+    padding: 20px 35px;
 }
 
 /*Content Section*/
+
+.content, .projects {
+    display: flex;
+    flex: flex-wrap;
+    padding: 100px 20px;
+}
+
+.content h2, .projects h2  {
+    font-size: 30px;
+    position: realtive;
+    left: 200px;
+    margin: 100px;
+
+    text-align: left;
+    
+    font-family: 'Segoe UI';
+}
+
+.content p, .project p {
+    font-family: 'Segoe UI';
+}
+
+ hr {
+    border-left: 6px solid var(--tertiary-color);
+    position: absolute;
+    left: 20%;
+    top: 600px;
+    height: 10px;
+    display: inline-block;
+    
+}
+
+
+/*About Me Section*/
+
+
+
+.info p {
+    font-size: 18px;
+    
+    
+    width: 50%;
+    text-align: left;
+
+    position: relative;
+    top: 100px;
+    left: 150px;
+    
+}
+
+/*Work Section*/
+
+.project {
+    
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+
+.projects hr {
+    height: 2000px;
+}
+.projects a {
+    border: 10px solid var(--primary-color);
+}
+
+#project1 {
+    margin: auto;
+    padding: 10px;
+    
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+
+/*Contact Me Section*/
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    left: 100px;
+}
+
+.contact ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    color: var(--primary-color);
+}
+
